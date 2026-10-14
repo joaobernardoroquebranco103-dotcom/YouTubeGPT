@@ -1,0 +1,29 @@
+{
+  "id": "community.youtubegpt",
+  "version": "1.0.0",
+  "name": "YouTubeGPT",
+  "description": "Personal catalog addon for official YouTube videos. First item: Dua Lipa - Live From Mexico.",
+  "logo": "https://www.youtube.com/s/desktop/7f6c2f8f/img/favicon_144x144.png",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "movie"
+  ],
+  "idPrefixes": [
+    "ytgpt"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "youtube",
+      "name": "YouTubeGPT"
+    }
+  ],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  }
+}
