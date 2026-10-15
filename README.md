@@ -1,28 +1,11 @@
-# YouTubeGPT
+# YouTubeGPT — fixed external-open version
 
-A small Nuvio/Stremio-style addon starter for official YouTube videos.
+This addon lists Dua Lipa: Live From Mexico. Selecting its stream returns the official YouTube watch URL as `externalUrl`, so Nuvio can open the video externally if its current build supports external streams. It does not download or host the video.
 
-## Included
-- Catalog: YouTubeGPT
-- First item: Dua Lipa — Live From Mexico
-- Official YouTube URL: https://www.youtube.com/watch?v=vZYVkitGXBU
-- Add more videos by editing `videos` in `server.js`.
+## Deploy on Render
+1. Upload the contents of this folder to the connected GitHub repository (replace the existing files).
+2. Commit and push the changes so Render redeploys.
+3. Reinstall/refresh the addon using the existing public URL ending in `/manifest.json`.
 
-## Run locally
-Requires Node.js 18+.
-
-```bash
-npm start
-```
-
-Then open:
-http://localhost:3000/manifest.json
-
-## Important playback note
-This first version deliberately returns the official YouTube watch URL as an
-`externalUrl`. Whether Nuvio 0.4.14 can play/launch that URL depends on its
-current player behavior. It does NOT download or extract the YouTube video.
-
-## Hosting
-For Nuvio to reach the addon from your phone, deploy this project to a public
-HTTPS Node.js host and use its `/manifest.json` URL when installing the addon.
+The item ID is `ytgpt`.
+Official video URL: https://www.youtube.com/watch?v=vZYVkitGXBU

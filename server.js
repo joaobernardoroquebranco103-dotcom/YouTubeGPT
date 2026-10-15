@@ -12,13 +12,13 @@ const BASE = process.env.PUBLIC_URL || `http://localhost:${PORT}`;
 
 const videos = [
   {
-    id: "ytgpt:live-from-mexico",
+    id: "ytgpt",
     name: "Dua Lipa: Live From Mexico",
     type: "movie",
     year: 2024,
     poster: "https://i.ytimg.com/vi/vZYVkitGXBU/maxresdefault.jpg",
     background: "https://i.ytimg.com/vi/vZYVkitGXBU/maxresdefault.jpg",
-    description: "Official YouTube video — Dua Lipa: Live From Mexico.",
+    description: "Dua Lipa: Live From Mexico. Opens the official YouTube video when selected.",
     youtubeId: "vZYVkitGXBU",
     youtubeUrl: "https://www.youtube.com/watch?v=vZYVkitGXBU"
   }
